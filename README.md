@@ -1,14 +1,37 @@
 # ArchipelagoDeathCounter
 
-This is an Application wich connects to an Archipelago Session via a Slot.\
-For now it only works with adresses which uses archipelago.gg
+This is an application which connects to an Archipelago session via a slot.  
+For now it only works with addresses that use archipelago.gg.
+
+---
 
 ## How to use
-Run the Application and enter Port, Gamename, Slotname and password(if required)
-Then just play and if a playerclient sends a Death Message it is counted and displayed.
+
+Run the application and enter:
+
+- Port  
+- Game name  
+- Slot name  
+- Password (if required)
+
+Then start playing.  
+If a player client sends a death message, it will be counted and displayed.
+
+---
 
 ## Installation
-ToDo
+
+Download the latest release here:
+
+👉 https://github.com/Zopder-Cat/ArchipelagoDeathCounter/releases/latest
+
+1. Download the ZIP file for your operating system (Windows/Linux)
+2. Extract the archive
+3. Run the application:
+   - Windows: `ArchipelagoDeathCounter.exe`
+   - Linux: `chmod +x ArchipelagoDeathCounter` (if needed) then `./ArchipelagoDeathCounter`
+
+---
 
 ## License
 
