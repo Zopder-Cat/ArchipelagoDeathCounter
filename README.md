@@ -23,7 +23,7 @@ If a player client sends a death message, it will be counted and displayed.
 
 Download the latest release here:
 
-👉 https://github.com/Zopder-Cat/ArchipelagoDeathCounter/releases/latest
+-> https://github.com/Zopder-Cat/ArchipelagoDeathCounter/releases/latest
 
 1. Download the ZIP file for your operating system (Windows/Linux)
 2. Extract the archive
