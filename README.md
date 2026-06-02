@@ -1,7 +1,7 @@
 # ArchipelagoDeathCounter
 
-This is an Application wich connects to an Archipelago Session via a Slot.
-For now it only works with adresses wich uses archipelago.gg
+This is an Application wich connects to an Archipelago Session via a Slot.\
+For now it only works with adresses which uses archipelago.gg
 
 ## How to use
 Run the Application and enter Port, Gamename, Slotname and password(if required)
