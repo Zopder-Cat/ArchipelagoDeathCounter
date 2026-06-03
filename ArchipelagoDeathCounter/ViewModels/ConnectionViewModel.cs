@@ -19,6 +19,8 @@ namespace ArchipelagoDeathCounter.ViewModels
         private string _gamename;
         [ObservableProperty]
         private string _password;
+        [ObservableProperty]
+        private string _address;
 
         public string Title { get; } = "Connect to Server";
 
@@ -29,7 +31,16 @@ namespace ArchipelagoDeathCounter.ViewModels
         }
         public override bool executePrimaryAction()
         {
-            connector = new Connector(Port ?? default(int), Gamename, Slotname, Password);
+            if (Address==null)
+            {
+                connector = new Connector(Port ?? default(int), Gamename, Slotname, Password);
+            }
+            else
+            {
+                connector = new Connector(Address, Port ?? default(int), Gamename, Slotname, Password);
+            }
+
+            
             connector.DeathLinkReceived += nextPage.getCounter().ReceiveDeath;
             if (connector.Connect())
             {
