@@ -12,6 +12,7 @@ public class Connector
     private string game;
     private string slotname;
     private string ?password;
+    private string adress = "archipelago.gg";
     public event Action<string>? DeathLinkReceived;
 
 
@@ -29,11 +30,20 @@ public class Connector
         this.slotname = slotname;
         this.password = password;
     }
+    public Connector(string adress,int port, string game, string slotname, string password)
+    {
 
-   
+        this.port = port;
+        this.game = game;
+        this.slotname = slotname;
+        this.password = password;
+        this.adress = adress;
+    }
+
+
     public bool Connect()
     {
-        var session = ArchipelagoSessionFactory.CreateSession("archipelago.gg", port);
+        var session = ArchipelagoSessionFactory.CreateSession(adress, port);
         var deathLinkService = session.CreateDeathLinkService();
         
         //deathLinkService.EnableDeathLink();

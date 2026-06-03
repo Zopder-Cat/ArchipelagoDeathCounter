@@ -19,6 +19,8 @@ namespace ArchipelagoDeathCounter.ViewModels
         private string _gamename;
         [ObservableProperty]
         private string _password;
+        [ObservableProperty]
+        private string _adress;
 
         public string Title { get; } = "Connect to Server";
 
