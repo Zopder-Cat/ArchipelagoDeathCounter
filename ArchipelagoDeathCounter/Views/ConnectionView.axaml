@@ -20,27 +20,24 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition MinWidth="100" Width="100"/>
                     <ColumnDefinition  MinWidth="100" MaxWidth="200"/>
                     
                 </Grid.ColumnDefinitions>
-                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Text= "Adress:"/>
-                <NumericUpDown Value="{Binding Adress}" PlaceholderText="default is archipelago.gg" Minimum="0" FormatString="0" ShowButtonSpinner="false" Grid.Row="0" Grid.Column="1"/>
-
-                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Text= "Port:"/>
-                <NumericUpDown Value="{Binding Port}" Minimum="0" FormatString="0" ShowButtonSpinner="false" Grid.Row="1" Grid.Column="1"/>
+             
+                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Text= "Port:"/>
+                <NumericUpDown Value="{Binding Port}" Minimum="0" FormatString="0" ShowButtonSpinner="false" Grid.Row="0" Grid.Column="1"/>
                   
-                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Text= "Game:"/>
-                <TextBox Text="{Binding Gamename}" PlaceholderText="Your Game" Grid.Row="2" Grid.Column="1"/>
+                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Text= "Game:"/>
+                <TextBox Text="{Binding Gamename}" TextBox.Watermark="Your Game" Grid.Row="1" Grid.Column="1"/>
 
-                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Text= "Slotname:"/>
-                <TextBox Text="{Binding Slotname}" PlaceholderText="Your Name" Grid.Row="3" Grid.Column="1"/>
+                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Text= "Slotname:"/>
+                <TextBox Text="{Binding Slotname}" TextBox.Watermark="Your Name" Grid.Row="2" Grid.Column="1"/>
 
-                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0" Text= "Password:"/>
-                <TextBox Text="{Binding Password}" PlaceholderText="Password if needed" Grid.Row="4" Grid.Column="1"/>
+                <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Text= "Password:"/>
+                <TextBox Text="{Binding Password}" TextBox.Watermark="Password if needed" Grid.Row="3" Grid.Column="1"/>
             </Grid>  
             </StackPanel>
 
