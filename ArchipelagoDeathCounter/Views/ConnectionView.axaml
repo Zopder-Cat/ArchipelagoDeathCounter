@@ -28,7 +28,7 @@
                     
                 </Grid.ColumnDefinitions>
                 <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Text= "Adress:"/>
-                <NumericUpDown Value="{Binding Address}" PlaceholderText="default is archipelago.gg" Minimum="0" FormatString="0" ShowButtonSpinner="false" Grid.Row="0" Grid.Column="1"/>
+                <TextBox Text="{Binding Address}" PlaceholderText="default is archipelago.gg" Grid.Row="0" Grid.Column="1"/>
 
                 <TextBlock  FontSize="20" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Text= "Port:"/>
                 <NumericUpDown Value="{Binding Port}" Minimum="0" FormatString="0" ShowButtonSpinner="false" Grid.Row="1" Grid.Column="1"/>
