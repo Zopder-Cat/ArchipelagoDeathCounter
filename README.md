@@ -26,8 +26,9 @@ Download the latest release here:
 -> https://github.com/Zopder-Cat/ArchipelagoDeathCounter/releases/latest
 
 1. Download the ZIP file for your operating system (Windows/Linux)
-2. Extract the archive
-3. Run the application:
+2. Extract the ZIP
+3. Open the Folder
+4. Run the application:
    - Windows: `ArchipelagoDeathCounter.exe`
    - Linux: `chmod +x ArchipelagoDeathCounter` (if needed) then `./ArchipelagoDeathCounter`
 
